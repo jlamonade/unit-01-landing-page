@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Unit 01 Landing Page</title>
 </head>
 <body>
     <header>
         <nav>
             <ul class="nav-list">
-                <li>item1</li>
-                <li>item2</li>
-                <li>item3</li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#portfolio-section">Portfolio</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ul>
         </nav>
-        <!-- <ul>
-            <li><nav></nav></li>
-            <li><nav></nav></li>
-            <li><nav></nav></li>
-        </ul> -->
     </header>
     <main>
-        main
     </main>
-    <section>
-        section
+    <section id="portfolio-section">
+        <h1 class="text-center">My New Website</h1>
+        <figure>
+            <img src="" alt="">
+            <figcaption class="text-center">Lorem ipsum dolor sit amet.</figcaption>
+        </figure>
+    </section>
+    <section id="contact-section">
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+            <label for="user-name">
+                Name: <input type="text" id="user-name" name="user-name">
+            </label>
+            <label for="user-email">
+                Email: <input type="text" id="user-email" name="user-email">
+            </label>
+            <button type="submit">submit</button>
+        </form>
     </section>
     <footer>
-        footer
+        <p>&copy; My New Website Productions</p>
     </footer>
 </body>
 </html>
