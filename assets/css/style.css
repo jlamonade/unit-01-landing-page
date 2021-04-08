@@ -28,14 +28,6 @@ nav {
     display: inline;
 }
 
-.nav-list{
-    display: inline-block;
-}
-
-.nav-list li{
-    display: inline-block;
-}
-
 main {
     text-align: center;
     display: block;
@@ -48,8 +40,8 @@ section {
     color: lawngreen;
 }
 
-figure {
-    background-color: grey;
+figure img {
+    width: 250px;
 }
 
 footer {
@@ -57,6 +49,9 @@ footer {
     background-color: purple;
     text-align: center;
     color: lawngreen;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 /* class selectors */
@@ -66,10 +61,19 @@ footer {
     margin: 20px;
 }
 
+.nav-list{
+    display: inline-block;
+}
+
+.nav-list li{
+    display: inline-block;
+}
+
 /* id selectors */
 
 #contact-section {
     padding: 20px;
+    background-color: darkslategrey;
 }
 
 #contact-section label {
